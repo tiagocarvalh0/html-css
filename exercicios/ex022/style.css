@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightcyan; 
+    margin: 0px;  
+    padding: 0px;
+}
+header{
+    background-color:lightgray;
+    height: 130px;
+    text-align: center;  
+}
+header>h1{
+    color: rgb(175, 131, 131);
+    padding: 40px;
+}
+div#conjunto{
+    width: 1000px ;
+    margin:auto;
+}
+div.quadrado{
+    border: 1px solid black;
+    border-radius: 10px;
+    display:inline-block;
+    background-image: linear-gradient(to bottom , lightblue , rgb(255, 255, 255));
+    width: 300px;
+    height: 300px;
+}
+div#q1:hover{
+    background-image: url(imagens/pattern003.png);
+
+}
+div#q2:hover{
+    background-image: url(imagens/pattern003.png);
+
+}
+div#q3:hover{
+    background-image: url(imagens/pattern003.png);
+
+}
