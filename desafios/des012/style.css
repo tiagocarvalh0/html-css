@@ -21,4 +21,18 @@ header a{
     text-decoration: none;
     color: white;
 }
-
+header a:hover{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+}
+section p {
+    margin: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
