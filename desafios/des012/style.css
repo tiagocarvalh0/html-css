@@ -43,9 +43,6 @@ section >p{
     margin: 8px;
     font-size: 2em;  
 }
-section.normal{
-    
-}
 section.imagem{
     box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.466);
     background-size: cover;
