@@ -3,6 +3,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+
+    
+}
 header{
     height: 100px;
     text-align: center;
@@ -20,6 +24,7 @@ header>p{
 header a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 header a:hover{
     background-color: white;
@@ -27,8 +32,29 @@ header a:hover{
     padding: 3px;
     border-radius: 5px;
 }
-section p {
-    margin: 20px;
+
+section  {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15px;
+}
+section >p{
+    background-color: white;
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+
+   
+}
+section.normal{
+    background-color: blue;
+    
+}
+section.imagem{
+    background-color: coral;
+
 }
 footer{
     background-color: black;
